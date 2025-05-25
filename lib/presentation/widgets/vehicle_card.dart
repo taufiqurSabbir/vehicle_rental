@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:vehicle_rental/core/utils/helpers.dart';
 import 'package:vehicle_rental/presentation/screens/ride_details/RideDetailsPage.dart';
+import 'package:vehicle_rental/presentation/screens/vehicle_detail/vehicle_detail_screen.dart';
 
-import '../../core/utils/helpers.dart';
-import '../../data/models/vehicle_model.dart';
-import '../screens/vehicle_detail/vehicle_detail_screen.dart';
+import 'package:vehicle_rental/data/models/vehicle_model.dart';
 
 class VehicleCard extends StatelessWidget {
   final VehicleModel vehicle;
